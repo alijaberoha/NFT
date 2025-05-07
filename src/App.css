@@ -1,3 +1,81 @@
 body{
-  background-color: #020306;
+  background-color: #0d1a2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Nécessaire pour que le body prenne toute la hauteur */
+  margin: 0; /* Pour éviter les marges par défaut du body */
+
+}
+.box{
+  width: 320px;
+  height: 535px;
+  border-radius: 5%;
+  background-color: #15273f;
+}
+.image{
+  display: flex;
+  justify-content: center;
+ 
+}
+.image img{
+  width: 270px;
+  margin: 20px;
+  border-radius: 5%; 
+}
+.titre {
+  color: white;
+  font-size: 10px;
+  margin-left: 20px;
+  font-family: 'Outfit', sans-serif;
+}
+.texte{
+  color: #7a8eb0;
+  font-size: 17px;
+  margin-left: 20px;
+  font-family: 'Outfit', sans-serif;
+}
+.info{
+  width: 300px;
+  height: 30px;
+  justify-content: space-around;
+  display: flex;
+}
+.vert{
+  color: #00fff8;
+  display: flex;
+  justify-content: space-around;
+  width: 110px;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+.gris{
+  color: #7a8eb0;
+  display: flex;
+  justify-content: space-around;
+  width: 110px;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+.ligne{
+  border: 1px solid #7a8eb0;
+  width: 290px;
+  display: flex;
+  margin: 10px;
+}
+.footer img {
+  width: 30px;
+  border:1px solid white ;
+  border-radius: 50%;
+}
+.footer{
+  color: #7a8eb0;
+  display: flex;
+  justify-content: space-around;
+  width: 240px;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+.footer span{
+  color: white;
 }
