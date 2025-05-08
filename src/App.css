@@ -16,12 +16,19 @@ body{
 .image{
   display: flex;
   justify-content: center;
- 
 }
 .image img{
   width: 270px;
   margin: 20px;
-  border-radius: 5%; 
+  border-radius: 5%;
+   
+
+}
+.image:hover{
+ filter: hue-rotate(-14deg);
+ background-image: url("images/icon-view.svg"); /* ton icône */
+
+  
 }
 .titre {
   color: white;
@@ -79,3 +86,114 @@ body{
 .footer span{
   color: white;
 }
+/* body {
+  background-color: #0d1a2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.box {
+  width: 320px;
+  height: auto;
+  border-radius: 15px;
+  background-color: #15273f;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 270px;
+  margin: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 255, 248, 0.5);
+  background-image: url("images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.image-container:hover::before {
+  opacity: 1;
+}
+.image-container:hover .main-image {
+  transform: scale(1.05);
+}
+
+.titre h1 {
+  color: white;
+  font-size: 18px;
+  margin: 15px 0 10px 0;
+}
+
+.texte {
+  color: #7a8eb0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.vert, .gris {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.vert {
+  color: #00fff8;
+}
+
+.gris {
+  color: #7a8eb0;
+}
+
+.ligne {
+  border-bottom: 1px solid #7a8eb0;
+  margin: 15px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #7a8eb0;
+}
+
+.footer img {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer span {
+  color: white;
+} */
+
